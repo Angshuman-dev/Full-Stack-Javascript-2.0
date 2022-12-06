@@ -1,0 +1,84 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+*{
+    
+    font-family:'Poppins';
+}
+.navbar-container{
+    /* background-color: red; */
+    display: flex;
+    
+    justify-content: flex-start;
+    align-items: center;
+    
+    
+    }
+    
+    .container{
+      margin-left: 180px; 
+      margin-top: 80px; 
+    }
+    
+  
+    
+    .list li:first-child {
+        color: #000;
+    }
+  
+    
+      
+    
+    .list-item{
+        display: inline-block;
+        margin: auto 20px;
+        
+        color: #758283;
+    }
+
+  
+    
+    .button-group{
+        margin-left: 400px;
+    }
+    .nav-button {
+        padding: 15px 20px;
+        border-radius: 10px;
+        border-style: none;
+        background-color: #5955b3;
+        color: #fff;
+    }
+    
+    .banner-container{
+        display: flex;
+       
+    }
+    
+    .banner-container > div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        /* position: relative;
+        bottom: 100px;
+        right: 100px; */
+        /* margin-left: 120px; */
+    }
+    .heading-text span{
+        color: #5955b3;
+    }
+    .heading-text{
+       
+        
+            font-size: 50px;
+            
+            word-wrap: break-word; 
+            /* font-weight: bolder; */
+            color: #3c2f60;
+    }
+    
+    .description{
+       
+        color: #758283;
+        word-wrap: break-word; 
+    }
+    
