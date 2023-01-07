@@ -1,0 +1,360 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#section1-container{
+    color: #fff;
+    /* opacity: 0.8; */
+    background: linear-gradient(rgba(12, 4, 4, 0.75), rgba(16, 7, 7, 0.75)),    url("./Project 3- Gaming Landing Page/Assets/Photos/futuristic-bg.png")  ;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: ; */
+    padding: 20px 100px;
+    color: #c5c4c4;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+}
+ul li{
+    list-style: none;
+    margin-left:20px ;
+}
+#logo-div{
+    display: flex;
+    align-items: center;
+}
+
+#section1-body{
+    display: flex;
+    align-items: center;
+    padding: 10% 6%;
+    justify-content: space-between;
+}
+
+.heading{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.desc{
+    font-size: smaller;
+    color: #7f7d7e;
+    font-weight: bold;
+}
+
+#section1-body-left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+#section1-body-right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 7rem;
+}
+#right-arrow{
+    /* display: flex; */
+    align-self: flex-end;
+}
+
+.btn{
+    padding: 10px 20px;
+    color: #c5c4c4;
+    cursor: pointer;
+}
+.btn-orange{
+    background-color: #f4694c;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+}
+.btn-trans{
+    background-color: transparent;
+    border: #c5c4c4 solid 2px;
+}
+#sign-in{
+    border: none;
+}
+
+#section1-body-right-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#section1-body-right-text div{
+width:280px;    
+}
+
+#section1-body-right-text span{
+    font-size: x-large;   
+    }
+
+    #section1-body-right-text img{
+        width: 50px;   
+        }
+    
+.horizontal-card-text{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    /* background-color: rgba(201, 200, 199, 0.9); */
+    backdrop-filter: blur(5px);
+    padding: 10px 10px;
+}
+#section2{
+    margin: 10% 6%;
+}
+#horizontal-card1{
+    
+    position: relative;
+    width: 300px;
+    height:   250px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("./Project 3- Gaming Landing Page/Assets/Photos/image 2.png");
+}
+
+#horizontal-card2{
+    
+    position: relative;
+    width: 300px;
+    height:   250px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("./Project 3- Gaming Landing Page/Assets/Photos/image 3.png");
+}
+#horizontal-card3{
+    
+    position: relative;
+    width: 300px;
+    height:   250px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("./Project 3- Gaming Landing Page/Assets/Photos/image 4.png");
+}
+#horizontal-card4{
+    
+    position: relative;
+    width: 300px;
+    height:   250px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("./Project 3- Gaming Landing Page/Assets/Photos/Rectangle\ 56.png");
+}
+
+#horizontal-card-div{
+    display: flex   ;
+    justify-content: space-between;
+}
+
+.horizontal-card-head{
+font-weight: 400;
+color: #fff;
+}
+
+#section2>.heading{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.horizontal-card-text-mid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#section2-div2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15%;
+}
+
+#section2-div2-left img{
+    height: 400px;
+    width: 550px;
+}
+
+#section2-div2-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 1rem;
+    width: 50%;
+    padding-right: 162px;
+}
+
+.learn-more{
+    background-color: #fff;
+    border: #f4694c solid 1px;
+    color: #f4694c;
+}
+
+#section2-div3-card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem 1rem;
+}
+
+.section2-div3-card{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.section2-div3-card-right{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    row-gap: 1rem;
+    width: 50%;
+    padding-right: 96px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.section2-div3-card-left img{
+    height: 280px;
+    width: 250px;
+}
+
+.section2-div3-card-right{
+    width: 58%;
+}
+
+#section2-div3-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem auto;
+}
+
+#section2-div3-top .heading{
+    width: 40%;
+    
+}
+
+.btn-left{
+    background-color: #fde1db;
+    border: none;
+    padding: 15px;
+}
+
+.btn-right{
+    background-color: #f4694c;
+    border: none;
+    padding: 15px;
+}
+.btn-right img{
+    width:30px;
+}
+.section2-div3-card-heading{
+    font-size: 23px;
+    font-weight: bolder;
+}
+.section2-div3-card-right p:nth-child(2){
+    color: #f4694c;
+    font-weight: bold;
+}
+#section3{
+    background-color: #000;
+    color: #fff;
+    /* padding-bottom: 10%; */
+    padding: 10% 6%;
+}
+
+.section3-img{
+    height: 400px;
+    width: 400px;
+    margin-left: 30px;
+}
+
+#section3-card-div{
+    position: relative;
+}
+
+#section3-card-div>p{
+    position: relative;
+    top: -350px;
+    width: 40%;
+    left: 450px;
+}
+
+#section3-card-div img:last-child{
+    position: relative;
+    top: -300px;
+    /* width: 60%; */
+    left: 400px;
+}
+
+#section3-card-div img:nth-child(2){
+    position: relative;
+    top:200px;
+    z-index:1;
+}
+#section3-card-div img:nth-child(3){
+    position: relative;
+    top:200px;
+    height: 200px;
+    width: 300px;
+}
+#section3 .heading{
+    text-align: center;
+    width: 30%;
+    margin: auto auto 5% auto;
+}
+
+#section3-mid-div{
+    padding: 5% 0;
+    margin-top: 10%;
+    /* margin-bottom: 2%; */
+    background: linear-gradient(rgba(12, 4, 4, 0.75), rgba(16, 7, 7, 0.75)), url('./Project 3- Gaming Landing Page/Assets/Photos/Rectangle 606.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+}
+#footer{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-top: 5%;
+}
+#footer-logos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 1rem;
+}
+.footer-table{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    row-gap: 1rem;
+}
+.head  ~p{
+    font-size: smaller;
+    color: #7f7d7e;
+    font-weight: bold;
+}
