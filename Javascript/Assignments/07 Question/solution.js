@@ -1,0 +1,3 @@
+let sentence='Hi,pw skills is the result of a continual effort to exponentially increase the employability of every Indian, irrespective of their socioeconomic status. With accessibility and affordability being the support structure of high-quality, industry-relevant courses, pw skills aims to empower professionals and students alike to either jumpstart their careers or leverage existing skills with new, future-driven upgrades that will help them realise their full potential';
+
+console.log(`pw skills Occurences:\nFist Occurence: ${sentence.indexOf('pw skills')} \nLast Occurence: ${sentence.lastIndexOf('pw skills')}`)
