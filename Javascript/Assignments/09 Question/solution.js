@@ -1,0 +1,52 @@
+// 3 Truthy values
+
+
+// 1>
+if (true){
+    console.log('1st Truthy value')
+}
+
+// 2>
+if ("abc"){
+    console.log('2nd Truthy value')
+}
+
+// 3>
+if (43){
+    console.log('3rd Truthy value')
+}
+
+
+// 3 Truthy values
+
+
+// 1>
+if (false){
+    console.log('')
+}
+else
+{
+    console.log('1st Falsy value')
+
+}
+
+// 2>
+if (0){
+    console.log('')
+}
+else
+{
+    console.log('2nd Falsy value')
+
+}
+
+// 3>
+if (""){
+    console.log('')
+}
+else
+{
+    console.log('3rd Falsy value')
+
+}
+
